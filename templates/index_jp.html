@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kotaro Wada</title>
+  <link rel="stylesheet"↲type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <style>
+    #profile_image {
+      max-height: 200px;
+      max-width: 200px;
+    }
+    .table-borderless > tbody > tr > td,
+    .table-borderless > tbody > tr > th,
+    .table-borderless > tfoot > tr > td,
+    .table-borderless > tfoot > tr > th,
+    .table-borderless > thead > tr > td,
+    .table-borderless > thead > tr > th {
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="rows">
+
+      <div class="col-sm-3 col-sm-offset-1">
+        <h1 class="masthead-title" style="margin-left: 30px;">和田　康太郎</h1>
+      </div>
+
+      <div class="col-sm-10 col-sm-offset-1" style="margin-top: 30px;">
+        <div class="col-sm-6 text-center">
+          <img class="img-rounded" id="profile_image" src="/static/img/profile.jpg" />
+        </div>
+        <div class="col-sm-6" style="margin-top: 40px;">
+          <table class="table table-borderless">
+            <tr><th>名前</th><td>和田　康太郎</td></tr>
+            <tr><th>生年月日</th><td>1996年5月2日</td></tr>
+            <tr><th>職業</th><td>大学生4年</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-sm-10 col-sm-offset-1" style="margin-top: 30px;">
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">Education</div>
+            <table class="table">
+              <tr><th>University</th><td><a href="http://www.nitech.ac.jp/eng/index.html" target="_blank">名古屋工業大学</a></td></tr>
+              <tr><th>期間</th><td>2016年4月 - 2022年3月 (卒業見込み)</td></tr>
+              <tr><th>専攻</th><td>創造工学教育過程　材料・エネルギーコース　機械工学分野</td></tr>
+            </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">伝記</div>
+            <div class="panel-body">
+              和田康太郎は現在大学4年生である。
+              牛島研究室に配属しており、環境流体の研究を行っている。
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">関連</div>
+            <div class="panel-body">
+              <ul class="list-inline" style="margin-bottom: 0;">
+                <li><a href="https://github.com/wkotaro" target="_blank">GitHub</a></li>
+                <li><a href="https://www.facebook.com/kotaro.wada.73" target="_blank">Facebook</a></li>
+                <li><a href="mailto:remove-this-www.kotaro.wada@gmail.com">Gmail</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">趣味</div>
+            <div class="panel-body">
+              <ul class="list-inline" style="margin-bottom: 0;">
+                <li>バスケットボール</li>
+                <li>筋肉トレーニング</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer" class="col-sm-10 col-sm-offset-1" style="margin-top: 30px;">
+        Copyright © <a href="/">Kotaro Wada</a> and <a href="http://wkentaro.com" target="_blank">Kentaro Wada</a>.
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
