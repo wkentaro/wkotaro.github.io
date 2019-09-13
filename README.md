@@ -12,9 +12,9 @@ git clone https://github.com/wkotaro/wkotaro.github.io.git
 cd wkotaro.github.io
 
 # terminal 1
-python -m SimpleHTTPServer 8000
+python views.py
 
 # terminal 2
-open http://localhost:8000
-vim index.html  # edit your profile
+open http://localhost:5000
+vim templates/index.html  # edit your profile
 ```
